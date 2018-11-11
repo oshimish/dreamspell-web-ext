@@ -1,0 +1,21 @@
+{
+  "name": "dreamspeller",
+  "private": true,
+  "version": "0.0.1",
+  "description": "This extensions will replace Gregorian dates with new galatic time Dream Spell codes on pages.",
+  "scripts": {
+    "build": "web-ext build -s app/",
+    "start": "web-ext run -s app/"
+  },
+  "standard": {
+    "globals": [
+      "chrome"
+    ]
+  },
+  "devDependencies": {
+    "web-ext": "^2.9.2"
+  },
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
+}
